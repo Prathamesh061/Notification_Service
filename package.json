@@ -1,0 +1,29 @@
+{
+  "name": "notification-service",
+  "version": "1.0.0",
+  "description": "API endpoints for user signin and signup and notification services which go out every 30 sec to Send Welcome Email to new Useer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "author": "Prathamesh Lakhapati",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "express": "~4.16.1",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "mailgen": "^2.0.27",
+    "mongoose": "^7.0.3",
+    "morgan": "~1.9.1",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.7.2",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
